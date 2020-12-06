@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+    background: 
+     url(https://image.flaticon.com/icons/svg/414/414927.svg) no-repeat, 
+     url(https://image.flaticon.com/icons/svg/414/414927.svg) no-repeat,
+     url(https://image.flaticon.com/icons/svg/313/313909.svg) no-repeat,
+    
+     url(https://image.flaticon.com/icons/svg/570/570687.svg) no-repeat,
+        
+     url(https://www.flaticon.com/svg/static/icons/svg/826/826961.svg) no-repeat,
+        
+     url(https://www.flaticon.com/svg/static/icons/svg/3766/3766949.svg) no-repeat,
+        
+     url(https://www.flaticon.com/svg/static/icons/svg/1864/1864549.svg) no-repeat;
+    
+    background-size: 
+        auto 60%, 
+        auto 50%, 
+        auto 30%,
+        auto 10%,
+        auto 10%,
+        auto 10%,
+        auto 10%;
+    
+    background-position: 
+        top 42% left 46%, 
+        top 42% left 55%, 
+        top 50% left 50%,
+        top 48% left 55%,
+        top 55% left 45%,
+        top 50% left 40%,
+        top 50% left 45%;
+    transition: background-position 10s ease;
+    
+    background-color: #414142;
+    transition: 5s;
+}
+
+div:hover {
+     background-position:
+         top 80% left 20%,
+         top 60% left 80%,
+         top 40% left 50%,
+         top 90% left 85%,
+         top 88% left 60%,
+         bottom 60% left 85%,
+         bottom 68% right 68%;
+        
+    background-color: #D0F8FF;
+    transition: 5s;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+    color: #414142;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+    color: #D0F8FF;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
